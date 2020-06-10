@@ -1,172 +1,181 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>The New Birth | Teachings</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>The New Birth | Teachings</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <!-- Top Position -->
-<div id="top"></div>
+<!-- Select the active link and add the class name  -->
 
-<!-- The Breadcrumb -->
-<section class="section hide-on-med-and-down">
-  <nav class="theBreadcrumb">
-    <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="/" class="breadcrumb">Home</a>
-        <a href="/teachings/index.html" class="breadcrumb">Teachings</a>
-        <a href="" class="breadcrumb disabled">The New Birth </a>
-      </div>
-    </div>
-  </nav>
+
+
+<script>
+  const activeLink = `Teachings`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Teachings</h2>
 </section>
 
-<section class="section blue lighten-2">
+<section class="section">
+  <h3 class="center">The New Birth</h3>
   <div class="container">
-    <button class="btn blue lighten-3"><i class="material-icons">person</i> Bro. Richard Irungu</button>
-    <div class="teaching col s12">
-      <a href="/teachings/index.html" class="hide-on-large-only btn blue accent-4"><i class="material-icons white-text">arrow_back</i></a>
-      <h4 class="center title white-text">The New Birth</h4>
-
-      <!-- Contents -->
-      <div class="contents blue lighten-3 z-depth-2">
-        <p>The new birth is a necessity for anyone to see the kingdom of God. Jesus told Nicodemus this. JOHN 3:1-5: <em>.There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him. Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God. Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother's womb, and be born? Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and [of] the Spirit, he cannot enter into the kingdom of God.</em></p>
-<h5 class="title center">Necessity of the New Birth </h5>
-<p>The new birth is necessary because of the fall of humanity. The fall of Adam and Eve subjected the entire human race to sin, since humanity originates from Adam. Indeed, we are conceived in iniquity and come to the world with a sinful nature. PSALMS 51:5 Behold, I was shapen in iniquity; and in sin did my mother conceive me. </p>
-<h5 class="title center">Sin is hereditary </h5>
-<p>We inherit it from our ancestors. ROMANS 5:17-21 <em>For if, by the trespass of the one, death reigned through the one; much more shall they that receive the abundance of grace and of the gift of righteousness reign in life through the one, even Jesus Christ. So then as through one trespass the judgment came unto all men to condemnation; even so through one act of righteousness the free gift came unto all men to justification of life. For as through the one man's disobedience the many were made sinners, even so through the obedience of the one shall the many be made righteous. And the law came in besides, that the trespass might abound; but where sin abounded, grace did abound more exceedingly: that, as sin reigned in death, even so might grace reign through righteousness unto eternal life through Jesus Christ our Lord.</em></p>
-<p>Sin will finally take the sinner to the lake of fire of God’s judgment, unless the sinner accepts God’s remedy for it. The wages of sin is death, but the gift of God is eternal life. (Romans 6:23)</p>
-<p>The root of sin is unbelief. All the sinful tendencies of man: theft, murder, lies, fornication, witchcraft, strife, enmity, jealousy, etc are the results of unbelief. No one can save himself or herself. All man’s efforts to be righteous are rotten before the Lord. We must accept God’s provided way of salvation. Religion, philosophy, psychology, traditions, education, morality, and suchlike cannot save. </p>
-<h5 class="title center">The Atonement of Jesus Christ </h5>
-<p>Atonement means to reconcile. In this case, it is God and man being reconciled. Jesus died to settle the sin question once. His death paid the penalty. The atonement redeems humanity fully, all the way to a glorified body. Jesus rose again on the third day to prove he had successfully paid the required price, for the payment for sin requires death. He died for humanity. In rising, He proved he had conquered all sin and its effects. His resurrection causes us to be justified.</p>
-<p>The death and resurrection of Jesus brings the Gospel to us. Gospel means good news. Someone has paid the price to take us out of bondage to sin. We need to accept what Jesus accomplished for us. </p>
-<h5 class="title center">Three Steps That Form the New Birth </h5>
-<p>There are 3 steps that form the new birth, resulting from the atoning work of Jesus. The first step is justification by faith. (Romans 5:1) We believe the Gospel of our Lord Jesus Christ after hearing it. The Lord justifies us after seeing our faith. In justification, God counts us as righteous, as though we never sinned in the first place. Water baptism takes place here, as an outward sign to show that an inner work of grace has happened. </p>
-<p>The second step is sanctification by the Blood of Jesus. (Hebrews 13:12). Sanctification takes away the desire of sin and its lusts. The mind starts becoming heavenly. The things that the individual valued in the past lose meaning. Righteousness starts getting hold of the person.</p>
-<p>The third and final step is the baptism or infilling with the Holy Spirit. (Acts 2:1-4) This step completes the new birth. The life of Jesus Christ indwells the individual. A person becomes a new creation in Christ. It is not the replacement of the person, but rather the removal of the old sinful nature that ruled the person, and the coming in of God’s nature. The Holy Spirit resides in the soul. The baptism of the Holy Spirit is more than speaking in tongues. It is the person of Christ.</p>
-<h5 class="title center">What does it mean? </h5>
-<p>The person is a new creation in Jesus Christ and the old nature of sin is gone. (2 Corinthians 5:17). It means that enmity with God is over. The believer now has fellowship with God.</p>
-<p>The new birth, the indwelling Holy Spirit, is the down payment or earnest to show that the Christian will get full redemption or body change. (Romans 8:22-23). The new birth is also the guarantee that one is going to the marriage supper of the Lamb since he/she has the oil spoken of in Matthew 25.</p>
-<p>The new birth puts a believer in the body of Christ, the true church. (1 Corinthians 12:13). Those who are in this body are they who worship God in Spirit and Truth. They are the Bride of Christ. </p>
-
-        <a href="#top" class="btn blue accent-4"><i class="material-icons white-text">arrow_upward</i></a>
-        <div class="clearfix"></div>
+    <p>The new birth is a necessity for anyone to see the kingdom of God. Jesus told Nicodemus this. JOHN 3:1-5: <em>.There
+    was a man of the Pharisees, named Nicodemus, a ruler of the Jews: The same came to Jesus by night, and said unto
+    him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except
+    God be with him. Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he
+    cannot see the kingdom of God. Nicodemus saith unto him, How can a man be born when he is old? can he enter the
+    second time into his mother's womb, and be born? Jesus answered, Verily, verily, I say unto thee, Except a man be
+    born of water and [of] the Spirit, he cannot enter into the kingdom of God.</em></p>
+<h5 class="center">Necessity of the New Birth </h5>
+<p>The new birth is necessary because of the fall of humanity. The fall of Adam and Eve subjected the entire human race
+  to sin, since humanity originates from Adam. Indeed, we are conceived in iniquity and come to the world with a sinful
+  nature. PSALMS 51:5 Behold, I was shapen in iniquity; and in sin did my mother conceive me. </p>
+<h5 class="center">Sin is hereditary </h5>
+<p>We inherit it from our ancestors. ROMANS 5:17-21 <em>For if, by the trespass of the one, death reigned through the
+    one; much more shall they that receive the abundance of grace and of the gift of righteousness reign in life through
+    the one, even Jesus Christ. So then as through one trespass the judgment came unto all men to condemnation; even so
+    through one act of righteousness the free gift came unto all men to justification of life. For as through the one
+    man's disobedience the many were made sinners, even so through the obedience of the one shall the many be made
+    righteous. And the law came in besides, that the trespass might abound; but where sin abounded, grace did abound
+    more exceedingly: that, as sin reigned in death, even so might grace reign through righteousness unto eternal life
+    through Jesus Christ our Lord.</em></p>
+<p>Sin will finally take the sinner to the lake of fire of God’s judgment, unless the sinner accepts God’s remedy for
+  it. The wages of sin is death, but the gift of God is eternal life. (Romans 6:23)</p>
+<p>The root of sin is unbelief. All the sinful tendencies of man: theft, murder, lies, fornication, witchcraft, strife,
+  enmity, jealousy, etc are the results of unbelief. No one can save himself or herself. All man’s efforts to be
+  righteous are rotten before the Lord. We must accept God’s provided way of salvation. Religion, philosophy,
+  psychology, traditions, education, morality, and suchlike cannot save. </p>
+<h5 class="center">The Atonement of Jesus Christ </h5>
+<p>Atonement means to reconcile. In this case, it is God and man being reconciled. Jesus died to settle the sin question
+  once. His death paid the penalty. The atonement redeems humanity fully, all the way to a glorified body. Jesus rose
+  again on the third day to prove he had successfully paid the required price, for the payment for sin requires death.
+  He died for humanity. In rising, He proved he had conquered all sin and its effects. His resurrection causes us to be
+  justified.</p>
+<p>The death and resurrection of Jesus brings the Gospel to us. Gospel means good news. Someone has paid the price to
+  take us out of bondage to sin. We need to accept what Jesus accomplished for us. </p>
+<h5 class="center">Three Steps That Form the New Birth </h5>
+<p>There are 3 steps that form the new birth, resulting from the atoning work of Jesus. The first step is justification
+  by faith. (Romans 5:1) We believe the Gospel of our Lord Jesus Christ after hearing it. The Lord justifies us after
+  seeing our faith. In justification, God counts us as righteous, as though we never sinned in the first place. Water
+  baptism takes place here, as an outward sign to show that an inner work of grace has happened. </p>
+<p>The second step is sanctification by the Blood of Jesus. (Hebrews 13:12). Sanctification takes away the desire of sin
+  and its lusts. The mind starts becoming heavenly. The things that the individual valued in the past lose meaning.
+  Righteousness starts getting hold of the person.</p>
+<p>The third and final step is the baptism or infilling with the Holy Spirit. (Acts 2:1-4) This step completes the new
+  birth. The life of Jesus Christ indwells the individual. A person becomes a new creation in Christ. It is not the
+  replacement of the person, but rather the removal of the old sinful nature that ruled the person, and the coming in of
+  God’s nature. The Holy Spirit resides in the soul. The baptism of the Holy Spirit is more than speaking in tongues. It
+  is the person of Christ.</p>
+<h5 class="center">What does it mean? </h5>
+<p>The person is a new creation in Jesus Christ and the old nature of sin is gone. (2 Corinthians 5:17). It means that
+  enmity with God is over. The believer now has fellowship with God.</p>
+<p>The new birth, the indwelling Holy Spirit, is the down payment or earnest to show that the Christian will get full
+  redemption or body change. (Romans 8:22-23). The new birth is also the guarantee that one is going to the marriage
+  supper of the Lamb since he/she has the oil spoken of in Matthew 25.</p>
+<p>The new birth puts a believer in the body of Christ, the true church. (1 Corinthians 12:13). Those who are in this
+  body are they who worship God in Spirit and Truth. They are the Bride of Christ. </p>
+  </div>
+</section></main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</section>
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

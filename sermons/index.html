@@ -1,151 +1,403 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>Sermons</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>Sermons</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <!-- INTRODUCTION -->
-<section class="section light-blue white-text sectionIntro">
-  <div class="container">
-    <p class="z-depth-2 light-blue accent-3"><em>Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God</em></p>
-    <p class="bold">The sermons are currently available in Swahili</p>
-  </div>
+<!-- Select the active link and add the class name  -->
+
+
+
+<script>
+  const activeLink = `Sermons`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Sermons</h2>
 </section>
 
-<section class="section dropd">
+<section class="sort">
   <div class="container">
-    <p>Sort by: </p>
-    <!-- Dropdown Trigger -->
-    <a class='dropdown-trigger btn sepMenus' href='#' data-target='byYear'>By Year  <i class="material-icons">arrow_drop_down</i></a>
-    <a href="#" class="dropdown-trigger btn" data-target='bySeries'>By Series  <i class="material-icons">arrow_drop_down</i></a>
+    <div class="row">
+      <div class="col s4 m3">
+        <a href="/sermons/series" class="btn">Series</a>
+      </div>
+      <div class="col s4 m3">
+        <a href="/sermons/" class="btn">2020</a>
+      </div>
+      <div class="col s4 m3">
+        <a href="/sermons/2019" class="btn">2019</a>
+      </div>
+    </div>
+  </div>
 
-    <!-- Dropdown Structure -->
-    <ul id='byYear' class='dropdown-content'>
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-    </ul>
-    
-    <ul id='bySeries' class='dropdown-content'>
-      <li><a href="/sermons/series/golden_nuggets.html">Golden Nuggets(Swahili)</a></li>
-      <li class="divider" tabindex="-1"></li>
-      <li><a href="/sermons/series.html">More</a></li>
-    </ul>
+</section> <section class="section content">
+  <div class="container">
+    <h2 class="center">2020</h2>
+    <div class="row">
+      
+      <hr class="col s12">
+      <div class="col s12">
+        <h4>June</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-06-07_muhuri_wa_saba_na_awamu_tatu_zake.html" class="dark-link">Muhuri wa Saba na Awamu Tatu Zake</a>
+        <p>
+          Sunday 07
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-06-04_trained_for_the_crisis_part_1_warrior_david.html" class="dark-link">Trained for the Crisis || Part 1</a>
+        <p>
+          Thursday 04
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><hr class="col s12">
+      <div class="col s12">
+        <h4>May</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-05-31_mafanikio_ya_ufunuo_wa_siri_za_mungu_kwa_kanisa_lake.html" class="dark-link">Mafanikio ya Ufunuo wa Siri za Mungu kwa Kanisa Lake</a>
+        <p>
+          Sunday 31
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-05-28_joseph's_stewardship_in_egypt.html" class="dark-link">Joseph's Stewardship in Egypt</a>
+        <p>
+          Thursday 28
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-05-24_wanafunzi_wa_ujumbe_wa_eliya_sehemu_ya_2_mikaya.html" class="dark-link">Wanafunzi Wa Ujumbe Wa Eliya #2</a>
+        <p>
+          Sunday 24
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-05-21_the_change_from_a_prisoner_to_a_ruler.html" class="dark-link">The Change From a Prisoner to a Ruler</a>
+        <p>
+          Thursday 21
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-05-17_wanafunzi_wa_ujumbe_wa_eliya_sehemu_ya_1_elisha.html" class="dark-link">Wanafunzi Wa Ujumbe Wa Eliya #1</a>
+        <p>
+          Sunday 17
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-05-14_joseph's_lockdown_before_his_exaltation.html" class="dark-link">Joseph's Lockdown Before His Exaltation</a>
+        <p>
+          Thursday 14
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-05-10_kuishindania_imani_iliyorejeshwa_na_ujumbe_wa_malaki_4_5_6.html" class="dark-link">Kuishindania Imani Iliyorejeshwa na Ujumbe wa Malaki 4:5-6</a>
+        <p>
+          Sunday 10
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-05-07_joseph's_trials_before_adoption.html" class="dark-link">Joseph's Trials Before Adoption</a>
+        <p>
+          Thursday 07
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-05-03_maagizo_ya_kuhamisha_nuhu_na_jamaa_yake.html" class="dark-link">Maagizo Ya Kuhamisha Nuhu Na Jamaa Yake</a>
+        <p>
+          Sunday 03
+        </p>
+      </div>
+      <hr class="col s12">
+      <div class="col s12">
+        <h4>April</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-04-30_joseph's_dreams_of_adoption.html" class="dark-link">Joseph's Dreams of Adoption</a>
+        <p>
+          Thursday 30
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-04-26_neema-na-hukumu-mwishoni-mwa-dahari.html" class="dark-link">Neema Na Hukumu Mwishoni Mwa Dahari</a>
+        <p>
+          Sunday 26
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-04-23_esther's-access-to-the-throne-in-the-time-of-squeeze.html" class="dark-link">Esther's Access To The Throne In The Time Of Squeeze</a>
+        <p>
+          Thursday 23
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-04-19_kipindi_baina_ya_kwenda_kwa_ndugu_branham_na_watakatifu_kufufuka.html" class="dark-link">Kipindi Baina Ya Kwenda Kwa Ndugu Branham Na Watakatifu Kufufuka</a>
+        <p>
+          Sunday 19
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-04-16_transformation_of_gods_genes_under_the_son_light.html" class="dark-link">Transformation Of God's Genes Under The Son Light</a>
+        <p>
+          Thursday 16
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-04-12_roho_ya_eliya_na_mjane_wa_sarepta_wakati_wa_shida.html" class="dark-link">Roho Ya Eliya Na Mjane Wa Sarepta Wakati Wa Shida</a>
+        <p>
+          Sunday 12
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-04-08_discovering_the_fullness_of_the_atonement.html" class="dark-link">Discovering the Fullness of the Atonement Through the Message of Elijah</a>
+        <p>
+          Wednesday 08
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-04-05_bi-arusi_wa_kristo_sharti_ale_kitabu_cha_ufunuo.html" class="dark-link">Bi-Arusi Wa Kristo Sharti Ale Kitabu Cha Ufunuo 10:8-11 Sasa</a>
+        <p>
+          Sunday 05
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-04-02_the_life_of_the_revealed_word_is_the_believers_security.html" class="dark-link">The Life of the Revealed Word is the Believer's Security</a>
+        <p>
+          Thursday 02
+        </p>
+      </div>
+      <hr class="col s12">
+      <div class="col s12">
+        <h4>March</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-03-29_kupokea_ufalme_usiotikisika.html" class="dark-link">Kupokea Ufalme Usiotikisika</a>
+        <p>
+          Sunday 29
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-03-22_kusimama_wakati_wa_shida.html" class="dark-link">Kusimama Wakati wa Shida</a>
+        <p>
+          Sunday 22
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-03-19_sauti_ya_mungu_katika_maskani.html" class="dark-link">82. Sauti ya Mungu Katika Maskani</a>
+        <p>
+          Thursday 19
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-03-12_mungu_katika_maskani_yake.html" class="dark-link">81. Mungu Katika Maskani Yake</a>
+        <p>
+          Thursday 12
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-03-01_vile_mungu_hushughulika_na_aina_mbali_mbali_za_watu.html" class="dark-link">Vile Mungu Hushughulika na Aina Mbali Mbali za Watu</a>
+        <p>
+          Sunday 01
+        </p>
+      </div>
+      <hr class="col s12">
+      <div class="col s12">
+        <h4>February</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-02-27_utukufu_wa_mungu_usoni_mwa_musa.html" class="dark-link">80. Utukufu wa Mungu Usoni mwa Musa</a>
+        <p>
+          Thursday 27
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-02-23_sehemu_ya_bi-arusi_katika_kile_kitabu_cha_uzima.html" class="dark-link">Sehemu ya Bi-Arusi Katika Kile Kitabu cha Uzima</a>
+        <p>
+          Sunday 23
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-02-20_mafunzo_tokana_na_musa_kuangusha_vibao_vya_amri.html" class="dark-link">79. Mafunzo Tokana na Musa Kuangusha Vibao vya Amri</a>
+        <p>
+          Thursday 20
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-02-16_viwango_vya_imani.html" class="dark-link">Viwango vya Imani</a>
+        <p>
+          Sunday 16
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-02-13_kuepuka_mpango_wa_ndama_wa_dhahabu.html" class="dark-link">78. Kuepuka Mpango wa Ndama wa Dhahabu</a>
+        <p>
+          Thursday 13
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-02-09_njia_ya_kwenda_kuadhimishwa_kuwa_wana_wa_mungu_2.html" class="dark-link">Njia ya Kwenda Kuadhimishwa kuwa Wana wa Mungu #2</a>
+        <p>
+          Sunday 09
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-02-02_njia_ya_kwenda_kuadhimishwa_kuwa_wana_wa_mungu_1.html" class="dark-link">Njia ya Kwenda Kuadhimishwa kuwa Wana wa Mungu #1</a>
+        <p>
+          Sunday 02
+        </p>
+      </div>
+      <hr class="col s12">
+      <div class="col s12">
+        <h4>January</h4>
+      </div>
+      
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-01-26_kushinda_shinikizo_ya_kizazi.html" class="dark-link">Kushinda Shinikizo ya Kizazi</a>
+        <p>
+          Sunday 26
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-01-23_waaminio_wakiwa_vipawa_vya_kazi_ya_mungu.html" class="dark-link">77. Waaminio Wakiwa Vipawa vya Kazi ya Mungu</a>
+        <p>
+          Thursday 23
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-01-19_mambo_ya_muhimu_kwenye_kitabu_cha_ayubu.html" class="dark-link">Mambo ya Muhimu Katika Kitabu cha Ayubu</a>
+        <p>
+          Sunday 19
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/thursday/20-01-16_madhabahu_ya_uvumba_ndani_yako.html" class="dark-link">76. Madhabahu ya Uvumba ndani Yako</a>
+        <p>
+          Thursday 16
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-01-12_maswali_na_majibu.html" class="dark-link">Maswali na Majibu</a>
+        <p>
+          Sunday 12
+        </p>
+      </div>
+      <div class="col s12 m6 sermon">
+        <a href="/sermons/2020/sunday/20-01-05_kufahamu_nafasi_yako.html" class="dark-link">Kufahamu Nafasi Yako</a>
+        <p>
+          Sunday 05
+        </p>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"></div>
   </div>
 </section>
-
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+</main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

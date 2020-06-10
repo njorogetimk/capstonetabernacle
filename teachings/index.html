@@ -1,213 +1,197 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>Teachings</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>Teachings</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <section class="section hide-on-small-only" id="theme">
-  <div class="slider" id="t_slider">
-    <ul class="slides">
-      <li>
-        <img src="../images/wheat.jpg" alt="wheat">
-        <div class="caption center-align">
-        </div>
-      </li>
-    </ul>
-  </div>
+<!-- Select the active link and add the class name  -->
+
+
+
+<script>
+  const activeLink = ``;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Teachings</h2>
 </section>
 
-<section class="section light-blue accent-3" id="featured">
+<section class="section">
   <div class="container">
-    <div class="z-depth-2">
-      <div class="row tranc">
-        <h2 class="white-text center">Featured Articles</h2>
-          <div class="col s12 m6 l4">
-                <h4 class="center">The 7 Dimensions </h4>
-                <p>The Bible teaches that there are worlds, both seen and unseen. HEBREWS 11:3 <em>Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.</em> God created the dimensions as He developed the design that was in His mind. These dimensions serve different purposes, as God deals with creation. These dimensions include things seen and those unse...</p>
-                <a href="/teachings/articles/19-01-11_sevenDimensions.html" class="btn white-text">Read More</a>
-              </div>
-              
-              <div class="col s12 m6 l4">
-                <h4 class="center">The 3 Showdowns </h4>
-                <p>There are 3 main showdowns in the Bible. One is in the Old Testament, the other in the Gospels in the New Testament, and the last at the end of the church age. The showdowns vindicate that the Word of God in the true witnesses is the Truth. These showdowns come when there is great opposition to the Word of God. When God backs his testimony in the true witnesses, it ends arguments. </p>
-<h5 class="title center"> 1. Mount Carmel Showdown </h5>
-<p>Elijah had a showdown wit...</p>
-                <a href="/teachings/articles/19-01-09_theThreeShowdowns.html" class="btn white-text">Read More</a>
-              </div>
-              
-              <hr class="col s12 hide-on-small-only hide-on-large-only"><div class="col s12 m6 l4">
-                <h4 class="center">The Godhead </h4>
-                <p>The greatest of all Bible revelations is the deity of our Lord Jesus Christ.</p>
-<p>The revelation of the Person of Jesus is the rock on which the true church is built-Matthew 16:13-16. It is the basis of true Christianity. Father, Son, and Holy Spirit are the manifestations of one God in different dispensations. It is God above us, with us and in us. The Lord Jesus is the Alpha and Omega. </p>
-<h5 class="title center">Different Beliefs about the Godhead </h5>
-<p>There are different beliefs about...</p>
-                <a href="/teachings/articles/19-01-08_godhead.html" class="btn white-text">Read More</a>
-              </div>
-              
-              </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <h5>The 7 Dimensions</h5>
+        <div>
+          <p>The Bible teaches that there are worlds, both seen and unseen. HEBREWS 11:3 <em>Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.</em> God created the dimensions as He developed the design that was in His mind. These dimensions serve different purposes, as God deals with creation. These dimensions include things seen and those unseen. </p>
+        </div>
+        <a href="/teachings/articles/19-01-11_sevenDimensions.html" class="btn">Read More</a>
+      </div>
+      <div class="col s12 m6">
+        <h5>The 3 Showdowns in the Bible</h5>
+        <div>
+          <p>There are 3 main showdowns in the Bible. One is in the Old Testament, the other in the Gospels in the New Testament, and the last at the end of the church age. The showdowns vindicate that the Word of God in the true witnesses is the Truth. These showdowns come when there is great opposition to the Word of God. When God backs his testimony in the true witnesses, it ends arguments. </p>
+        </div>
+        <a href="/teachings/articles/19-01-09_theThreeShowdowns.html" class="btn">Read More</a>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6">
+        <h5>The Godhead - Three Manifestations Not Persons</h5>
+        <div>
+          <p>The greatest of all Bible revelations is the deity of our Lord Jesus Christ.</p> <p>The revelation of the Person of Jesus is the rock on which the true church is built-Matthew 16:13-16. It is the basis of true Christianity. Father, Son, and Holy Spirit are the manifestations of one God in different dispensations. It is God above us, with us and in us. The Lord Jesus is the Alpha and Omega. </p>
+        </div>
+        <a href="/teachings/articles/19-01-08_godhead.html" class="btn">Read More</a>
+      </div>
+      <div class="col s12 m6">
+        <h5>The New Birth</h5>
+        <div>
+          <p>The new birth is a necessity for anyone to see the kingdom of God. Jesus told Nicodemus this. JOHN 3:1-5: <em>.There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him. Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again,</em> </p>
+        </div>
+        <a href="/teachings/articles/19-01-07_newBirth.html" class="btn">Read More</a>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6">
+        <h5>The Rapture</h5>
+        <div>
+          <p>The Bible does not use the word “Rapture.” It uses the term “caught up.” I THESSALONIANS 4:16-17 <em>For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive [and] remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.</em> This is the translation of the true church at the end time to heaven, to the marriage supper of the Lamb. The true church, composed of born again New Testament Saints, will leave the earth physically, and meet Jesus, the Groom, in the sky.</p>
+        </div>
+        <a href="/teachings/articles/19-01-06_rapture.html" class="btn">Read More</a>
+      </div>
+      <div class="col s12 m6">
+        <h5>The Manifestation Of The Sons Of God</h5>
+        <div>
+          <p>Scriptures have promised the manifestation of the sons of God in the last days. Romans 8:19 says, <em>For the earnest expectation of the creature waiteth for the manifestation of the sons of God.</em> In the plan of God, the manifestation of the sons of God was to come at the end time, when God reveals the full plan of redemption. This manifestation proves that God has restored what his children lost through the fall in the Garden of Eden. </p>
+        </div>
+        <a href="/teachings/articles/19-01-05_theManifestationsOfTheSonsOfGod.html" class="btn">Read More</a>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6">
+        <h5>The Harvest of Wheat</h5>
+        <div>
+          <p>The Bible speaks in parables in many places. Jesus told the parable of the wheat and the tares in Matthew 13:24-30, and then gave the interpretation in the same chapter from verses 36-43. It declares in Matthew 13:36-43 :- <em>Then Jesus sent the multitude away, and went into the house: and his disciples came unto him, saying, Declare unto us the parable of the tares of the field.He answered and said unto them, He that soweth the good seed is the Son of man.</em></p>
+        </div>
+        <a href="/teachings/articles/19-01-04_theHarvestOfWheat.html" class="btn">Read More</a>
+      </div>
+      <div class="col s12 m6">
+        <h5>The Harvest of Tares</h5>
+        <div>
+          <p>The parables of wheat and tares in Matthew 13:24-30,36-43 shows this. Matthew 13:24-30 says: <em>Another parable put he forth unto them, saying, The kingdom of heaven is likened unto a man which sowed good seed in his field: But while men slept, his enemy came and sowed tares among the wheat, and went his way. But when the blade was sprung up, and brought forth fruit, then appeared the tares also So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? </em></p>
+        </div>
+        <a href="/teachings/articles/19-01-03_theHarvestOfTares.html" class="btn">Read More</a>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"><div class="col s12 m6">
+        <h5>Water Baptism</h5>
+        <div>
+          <p>Water baptism is one of the 3 physical ordinances for the church of Jesus Christ, alongside feet washing and Lord’s table. Jesus commanded his disciples to be baptized after repenting, for the remission of sins. MARK 16:15-16 <em>And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned.</em></p>
+        </div>
+        <a href="/teachings/articles/19-01-02_waterbaptism.html" class="btn">Read More</a>
+      </div>
+      <div class="col s12 m6">
+        <h5>The Three Fold Make-up of Human Being</h5>
+        <div>
+          <p>The human being has 3 parts. These are soul, spirit, and body: I THESSALONIANS 5:23 <em>And the very God of peace sanctify you wholly; and [I pray God] your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ.</em> </p> <p>All the 3 parts are necessary to enable a person live on earth. If any part is missing, the person cannot live in the physically on earth. </p>
+        </div>
+        <a href="/teachings/articles/19-01-01_threeFoldMakeUpOfHumanBeing.html" class="btn">Read More</a>
+      </div>
+      <hr class="col s12 hide-on-small-and-down"></div>
+  </div>
+</section></main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</section>
-
-<section class="section" id="more">
-  <div class="container z-depth-2">
-    <div class="row tranc">
-      <div class="col s12 m6 l4">
-            <h4 class="center">The New Birth </h4>
-            <p>The new birth is a necessity for anyone to see the kingdom of God. Jesus told Nicodemus this. JOHN 3:1-5: <em>.There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him. Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of Go...</p>
-            <a href="/teachings/articles/19-01-07_newBirth.html" class="btn white-text">Read More</a>
-          </div>
-          <div class="col s12 m6 l4">
-            <h4 class="center">The Rapture </h4>
-            <p>The Bible does not use the word “Rapture.” It uses the term “caught up.” I THESSALONIANS 4:16-17 <em>For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive [and] remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.</em> This is the translation of the true church at the end time to heaven, to the marriage suppe...</p>
-            <a href="/teachings/articles/19-01-06_rapture.html" class="btn white-text">Read More</a>
-          </div>
-          <hr class="col s12 hide-on-large-only hide-on-small-only"><div class="col s12 m6 l4">
-            <h4 class="center">The Manifestation Of The Sons Of God </h4>
-            <p>Scriptures have promised the manifestation of the sons of God in the last days. Romans 8:19 says, <em>For the earnest expectation of the creature waiteth for the manifestation of the sons of God.</em> In the plan of God, the manifestation of the sons of God was to come at the end time, when God reveals the full plan of redemption. This manifestation proves that God has restored what his children lost through the fall in the Garden of Ed...</p>
-            <a href="/teachings/articles/19-01-05_theManifestationsOfTheSonsOfGod.html" class="btn white-text">Read More</a>
-          </div>
-          <hr class="col s12 hide-on-med-and-down"><div class="col s12 m6 l4">
-            <h4 class="center">The Harvest of Wheat </h4>
-            <p>The Bible speaks in parables in many places. Jesus told the parable of the wheat and the tares in Matthew 13:24-30, and then gave the interpretation in the same chapter from verses 36-43. It declares in Matthew 13:36-43 :- <em>Then Jesus sent the multitude away, and went into the house: and his disciples came unto him, saying, Declare unto us the parable of the tares of the field.He answered and said unto them, He that soweth the good seed is the Son of man....</p>
-            <a href="/teachings/articles/19-01-04_theHarvestOfWheat.html" class="btn white-text">Read More</a>
-          </div>
-          <hr class="col s12 hide-on-large-only hide-on-small-only"><div class="col s12 m6 l4">
-            <h4 class="center">The Harvest of Tares </h4>
-            <h5 class="title center">The end time is harvest time for both wheat and tares. </h5>
-<p>The parables of wheat and tares in Matthew 13:24-30,36-43 shows this. Matthew 13:24-30 says: <em>Another parable put he forth unto them, saying, The kingdom of heaven is likened unto a man which sowed good seed in his field: But while men slept, his enemy came and sowed tares among the wheat, and went his way. But when the blade was sprung up, and brought forth fruit, then appeared the tares also So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? from whence then hath it tares?...</p>
-            <a href="/teachings/articles/19-01-03_theHarvestOfTares.html" class="btn white-text">Read More</a>
-          </div>
-          <div class="col s12 m6 l4">
-            <h4 class="center">Water Baptism </h4>
-            <p>Water baptism is one of the 3 physical ordinances for the church of Jesus Christ, alongside feet washing and Lord’s table. Jesus commanded his disciples to be baptized after repenting, for the remission of sins. MARK 16:15-16 <em>And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned.</em></p>
-<h5 class="title center">Meaning of Water Baptism </h5>
-<p>Water baptism is an outward sign to show that a believer has believed on the Lord Jesus Christ and repented of sins. It is not the new birth itself, since nat...</p>
-            <a href="/teachings/articles/19-01-02_waterbaptism.html" class="btn white-text">Read More</a>
-          </div>
-          <hr class="col s12 hide-on-med-and-down"><hr class="col s12 hide-on-large-only hide-on-small-only"><div class="col s12 m6 l4">
-            <h4 class="center">The Three Fold Make-up of Human Being </h4>
-            <p>The human being has 3 parts. These are soul, spirit, and body: I THESSALONIANS 5:23 <em>And the very God of peace sanctify you wholly; and [I pray God] your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ.</em> </p>
-<p>All the 3 parts are necessary to enable a person live on earth. If any part is missing, the person cannot live in the physically on earth. </p>
-<p>At man’s creation, God created the spiritual part first, in Genesis 1:26-27. God created ma...</p>
-            <a href="/teachings/articles/19-01-01_threeFoldMakeUpOfHumanBeing.html" class="btn white-text">Read More</a>
-          </div>
-          </div>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
   </div>
-</section>
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

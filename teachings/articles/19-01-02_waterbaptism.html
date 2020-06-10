@@ -1,170 +1,174 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>Water Baptism | Teachings</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>Water Baptism | Teachings</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <!-- Top Position -->
-<div id="top"></div>
+<!-- Select the active link and add the class name  -->
 
-<!-- The Breadcrumb -->
-<section class="section hide-on-med-and-down">
-  <nav class="theBreadcrumb">
-    <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="/" class="breadcrumb">Home</a>
-        <a href="/teachings/index.html" class="breadcrumb">Teachings</a>
-        <a href="" class="breadcrumb disabled">Water Baptism </a>
-      </div>
-    </div>
-  </nav>
+
+
+<script>
+  const activeLink = `Teachings`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Teachings</h2>
 </section>
 
-<section class="section blue lighten-2">
+<section class="section">
+  <h3 class="center">Water Baptism</h3>
   <div class="container">
-    <button class="btn blue lighten-3"><i class="material-icons">person</i> Bro. Richard Irungu</button>
-    <div class="teaching col s12">
-      <a href="/teachings/index.html" class="hide-on-large-only btn blue accent-4"><i class="material-icons white-text">arrow_back</i></a>
-      <h4 class="center title white-text">Water Baptism</h4>
-
-      <!-- Contents -->
-      <div class="contents blue lighten-3 z-depth-2">
-        <p>Water baptism is one of the 3 physical ordinances for the church of Jesus Christ, alongside feet washing and Lord’s table. Jesus commanded his disciples to be baptized after repenting, for the remission of sins. MARK 16:15-16 <em>And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned.</em></p>
-<h5 class="title center">Meaning of Water Baptism </h5>
-<p>Water baptism is an outward sign to show that a believer has believed on the Lord Jesus Christ and repented of sins. It is not the new birth itself, since natural water cannot regenerate. However, it proves that one has believed the Gospel. It is the answer of a good conscience towards God. I PETER 3:20-21: <em>Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water. The like figure whereunto [even] baptism doth also now save us (not the putting away of the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ:</em></p>
-<p>Baptism symbolizes dying together with Christ, to awake to the newness of life eternal. ROMANS 6:3-4 <em>Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.</em></p>
-<p>When a believer is baptized, other believers recognize him/her as a fellow Christian. The believer joins the local assembly of believers as one of them. </p>
-<p>Water baptism comes after one has heard the Gospel truth and been convicted. The individual repents and is baptized by a minister by immersion. The early church usually baptized immediately those who believed the Faith. There was no delay or a requirement to attend baptismal classes.</p>
-<h5 class="title center">Origin of False Baptism </h5>
-<p>False baptism entered Christianity after the death of the Apostles when the spirit of deception began to infiltrate the church. The Nicene Council formally stamped the many false doctrines that began in infancy in the first church age. </p>
-<p>Baptism comes from the Greek word “baptizo”. It means immersion. The earth itself was submerged in the flood, which was the first step towards redeeming it. The false Christians began sprinkling people with water instead of immersing them. </p>
-<p>The other thing is that the false church adopted the triune titles of Father, Son, and Holy Spirit instead of the Name to those titles. </p>
-<h5 class="title center">Correct Baptism Formula </h5>
-<p>Jesus gave the commandment to baptize believers in the Name (singular), of the Father, Son, Holy Spirit. MATTHEW 28:19-20: <em>Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, [even] unto the end of the world. Amen.</em></p>
-<p>Thus, we see that Jesus requires that baptism be in the Name of those titles, not the titles themselves. The Apostles had the revelation of the Name and used it to baptize the repentant. Peter commanded the three thousand to repent and be baptized in the Name of Jesus Christ at Pentecost. ACTS 2:37-39: <em>Now when they heard [this], they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men [and] brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, [even] as many as the Lord our God shall call.</em></p>
-<p>In every case, the early church baptized in the Name of Jesus Christ. Acts 8:14-16, 10:48, and Acts 19:1-7 prove this. </p>
-<p>No one was ever baptized any other way other than in the Name of Jesus Christ. Baptism in the titles of Father, Son, and Holy Spirit shows lack of revelation. </p>
-<p>Thus, true baptism is by immersion in water in the Name of the Lord Jesus Christ. Jesus then commanded that the Word be taught to those who repent and are baptized. </p>
-
-        <a href="#top" class="btn blue accent-4"><i class="material-icons white-text">arrow_upward</i></a>
-        <div class="clearfix"></div>
+    <p>Water baptism is one of the 3 physical ordinances for the church of Jesus Christ, alongside feet washing and Lord’s
+  table. Jesus commanded his disciples to be baptized after repenting, for the remission of sins. MARK 16:15-16 <em>And
+    he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is
+    baptized shall be saved; but he that believeth not shall be damned.</em></p>
+<h5 class="center">Meaning of Water Baptism </h5>
+<p>Water baptism is an outward sign to show that a believer has believed on the Lord Jesus Christ and repented of sins.
+  It is not the new birth itself, since natural water cannot regenerate. However, it proves that one has believed the
+  Gospel. It is the answer of a good conscience towards God. I PETER 3:20-21: <em>Which sometime were disobedient, when
+    once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight
+    souls were saved by water. The like figure whereunto [even] baptism doth also now save us (not the putting away of
+    the filth of the flesh, but the answer of a good conscience toward God,) by the resurrection of Jesus Christ:</em>
+</p>
+<p>Baptism symbolizes dying together with Christ, to awake to the newness of life eternal. ROMANS 6:3-4 <em>Know ye not,
+    that so many of us as were baptized into Jesus Christ were baptized into his death? Therefore we are buried with him
+    by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also
+    should walk in newness of life.</em></p>
+<p>When a believer is baptized, other believers recognize him/her as a fellow Christian. The believer joins the local
+  assembly of believers as one of them. </p>
+<p>Water baptism comes after one has heard the Gospel truth and been convicted. The individual repents and is baptized
+  by a minister by immersion. The early church usually baptized immediately those who believed the Faith. There was no
+  delay or a requirement to attend baptismal classes.</p>
+<h5 class="center">Origin of False Baptism </h5>
+<p>False baptism entered Christianity after the death of the Apostles when the spirit of deception began to infiltrate
+  the church. The Nicene Council formally stamped the many false doctrines that began in infancy in the first church
+  age. </p>
+<p>Baptism comes from the Greek word “baptizo”. It means immersion. The earth itself was submerged in the flood, which
+  was the first step towards redeeming it. The false Christians began sprinkling people with water instead of immersing
+  them. </p>
+<p>The other thing is that the false church adopted the triune titles of Father, Son, and Holy Spirit instead of the
+  Name to those titles. </p>
+<h5 class="center">Correct Baptism Formula </h5>
+<p>Jesus gave the commandment to baptize believers in the Name (singular), of the Father, Son, Holy Spirit. MATTHEW
+  28:19-20: <em>Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of
+    the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway,
+    [even] unto the end of the world. Amen.</em></p>
+<p>Thus, we see that Jesus requires that baptism be in the Name of those titles, not the titles themselves. The Apostles
+  had the revelation of the Name and used it to baptize the repentant. Peter commanded the three thousand to repent and
+  be baptized in the Name of Jesus Christ at Pentecost. ACTS 2:37-39: <em>Now when they heard [this], they were pricked
+    in their heart, and said unto Peter and to the rest of the apostles, Men [and] brethren, what shall we do? Then
+    Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of
+    sins, and ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all
+    that are afar off, [even] as many as the Lord our God shall call.</em></p>
+<p>In every case, the early church baptized in the Name of Jesus Christ. Acts 8:14-16, 10:48, and Acts 19:1-7 prove
+  this. </p>
+<p>No one was ever baptized any other way other than in the Name of Jesus Christ. Baptism in the titles of Father, Son,
+  and Holy Spirit shows lack of revelation. </p>
+<p>Thus, true baptism is by immersion in water in the Name of the Lord Jesus Christ. Jesus then commanded that the Word
+  be taught to those who repent and are baptized. </p>
+  </div>
+</section></main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</section>
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

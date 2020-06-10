@@ -1,138 +1,145 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>57. Musa Kutumwa na Hizo Ishara  | Vito</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>57. Musa Kutumwa na Hizo Ishara | Vito</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    
+<!-- Select the active link and add the class name  -->
 
-<section class="section sectionSermon">
-  <div class="container">
-    <a href="/sermons/series/golden_nuggets_3.html" class="z-depth-3"><i class="blue white-text material-icons">navigate_before</i></a>
-    <h5 class="blue-text">57. Musa Kutumwa na Hizo Ishara</h5>
-  </div>
+
+
+<script>
+  const activeLink = `Sermons`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Sermons</h2>
 </section>
 
-<section class="section frames z-depth-2 light-blue accent-4">
+<section class="sort">
   <div class="container">
-    <iframe src="https://drive.google.com/file/d/11t8x4Ws3_x-zCnRbkC99mNCrZJlj9cR1/preview" width="600" height="100"></iframe>
+    <div class="row">
+      <div class="col s4 m3">
+        <a href="/sermons/series" class="btn">Series</a>
+      </div>
+      <div class="col s4 m3">
+        <a href="/sermons/" class="btn">2020</a>
+      </div>
+      <div class="col s4 m3">
+        <a href="/sermons/2019" class="btn">2019</a>
+      </div>
+    </div>
+  </div>
 
+</section> <section class="section">
+  <div class="container">
+    <h4 style="text-transform: capitalize;">57. Musa Kutumwa na Hizo Ishara</h4>
+    <p></p>
+    <iframe src="https://drive.google.com/file/d/11t8x4Ws3_x-zCnRbkC99mNCrZJlj9cR1/preview" width="600"
+  height="100"></iframe>
   </div>
 </section>
-
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+</main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

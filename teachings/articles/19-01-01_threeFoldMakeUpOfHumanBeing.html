@@ -1,166 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>The Three Fold Make-up of Human Being | Teachings</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>The Three Fold Make-up of Human Being | Teachings</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <!-- Top Position -->
-<div id="top"></div>
+<!-- Select the active link and add the class name  -->
 
-<!-- The Breadcrumb -->
-<section class="section hide-on-med-and-down">
-  <nav class="theBreadcrumb">
-    <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="/" class="breadcrumb">Home</a>
-        <a href="/teachings/index.html" class="breadcrumb">Teachings</a>
-        <a href="" class="breadcrumb disabled">The Three Fold Make-up of Human Being </a>
-      </div>
-    </div>
-  </nav>
+
+
+<script>
+  const activeLink = `Teachings`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Teachings</h2>
 </section>
 
-<section class="section blue lighten-2">
+<section class="section">
+  <h3 class="center">The Three Fold Make-up of Human Being</h3>
   <div class="container">
-    <button class="btn blue lighten-3"><i class="material-icons">person</i> Bro. Richard Irungu</button>
-    <div class="teaching col s12">
-      <a href="/teachings/index.html" class="hide-on-large-only btn blue accent-4"><i class="material-icons white-text">arrow_back</i></a>
-      <h4 class="center title white-text">The Three Fold Make-up of Human Being</h4>
-
-      <!-- Contents -->
-      <div class="contents blue lighten-3 z-depth-2">
-        <p>The human being has 3 parts. These are soul, spirit, and body: I THESSALONIANS 5:23 <em>And the very God of peace sanctify you wholly; and [I pray God] your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ.</em> </p>
-<p>All the 3 parts are necessary to enable a person live on earth. If any part is missing, the person cannot live in the physically on earth. </p>
-<p>At man’s creation, God created the spiritual part first, in Genesis 1:26-27. God created man in his own image. In John 4:24, Scripture states that God is a Spirit; so a man in God’s image had to be a spirit being. Then in Genesis 2:7, God created a body and housed that spirit creature. The body was to enable man contact and relate with the earth. </p>
-<h5 class="title center">The body</h5>
-<p>The body is the visible part of the human being. It enables a person to relate with other people on earth. It makes one relate with the earth. Naturally, we identify people because of their bodies. </p>
-<p>In order for the body to contact the earth, it has 5 senses. These are sight, hearing, touch, smell, and taste. They are the 5 doors to access the body. One would be dead if all the 5 stopped working. These senses have no capacity to contact God. The Christian goes higher than living by these senses to live by faith-I CORINTHIANS 5:7 <em>For we walk by faith, not by sight</em></p>
-<p>Because of the fall of man, the body became subject to death. This explains why no one lives forever on earth in the natural body. It is a mortal body. It is subject to sickness and decay. After the early twenties, a human body starts showing signs of death, which increase over the years. Finally, death strikes the body. However, there is a promise of the resurrection in an immortal state in first Corinthians chapter 15. The body of the believer will be glorified at the last trump. It will be like that one of Jesus after His resurrection. In that state, it is not subject to death or suffering. </p>
-<h5 class="title center">The spirit </h5>
-<p>The human spirit is on the inside of the body, between the body and soul. It corresponds to the holy place in the tabernacle of Moses. </p>
-<p>The human spirit makes the body alive. It motors the body. The spirit has 5 senses also, namely, memory, imagination, conscience, reasoning and affection. These 5 senses do not contact God. A Christian does not depend on them to live the Christian life. Apparently, the human spirit breaks up when the person dies. </p>
-<h5 class="title center">The soul </h5>
-<p>This is the innermost part of the human being. It corresponds to the holy of holies in the tabernacle. The soul is the human part in the image of God. It has only one sense: in a true believer, that sense is faith and in an unbeliever, the sense is doubt. </p>
-
-        <a href="#top" class="btn blue accent-4"><i class="material-icons white-text">arrow_upward</i></a>
-        <div class="clearfix"></div>
+    <p>The human being has 3 parts. These are soul, spirit, and body: I THESSALONIANS 5:23 <em>And the very God of peace
+    sanctify you wholly; and [I pray God] your whole spirit and soul and body be preserved blameless unto the coming of
+    our Lord Jesus Christ.</em> </p>
+<p>All the 3 parts are necessary to enable a person live on earth. If any part is missing, the person cannot live in the
+  physically on earth. </p>
+<p>At man’s creation, God created the spiritual part first, in Genesis 1:26-27. God created man in his own image. In
+  John 4:24, Scripture states that God is a Spirit; so a man in God’s image had to be a spirit being. Then in Genesis
+  2:7, God created a body and housed that spirit creature. The body was to enable man contact and relate with the earth.
+</p>
+<h5 class="center">The body</h5>
+<p>The body is the visible part of the human being. It enables a person to relate with other people on earth. It makes
+  one relate with the earth. Naturally, we identify people because of their bodies. </p>
+<p>In order for the body to contact the earth, it has 5 senses. These are sight, hearing, touch, smell, and taste. They
+  are the 5 doors to access the body. One would be dead if all the 5 stopped working. These senses have no capacity to
+  contact God. The Christian goes higher than living by these senses to live by faith-I CORINTHIANS 5:7 <em>For we walk
+    by faith, not by sight</em></p>
+<p>Because of the fall of man, the body became subject to death. This explains why no one lives forever on earth in the
+  natural body. It is a mortal body. It is subject to sickness and decay. After the early twenties, a human body starts
+  showing signs of death, which increase over the years. Finally, death strikes the body. However, there is a promise of
+  the resurrection in an immortal state in first Corinthians chapter 15. The body of the believer will be glorified at
+  the last trump. It will be like that one of Jesus after His resurrection. In that state, it is not subject to death or
+  suffering. </p>
+<h5 class="center">The spirit </h5>
+<p>The human spirit is on the inside of the body, between the body and soul. It corresponds to the holy place in the
+  tabernacle of Moses. </p>
+<p>The human spirit makes the body alive. It motors the body. The spirit has 5 senses also, namely, memory, imagination,
+  conscience, reasoning and affection. These 5 senses do not contact God. A Christian does not depend on them to live
+  the Christian life. Apparently, the human spirit breaks up when the person dies. </p>
+<h5 class="center">The soul </h5>
+<p>This is the innermost part of the human being. It corresponds to the holy of holies in the tabernacle. The soul is
+  the human part in the image of God. It has only one sense: in a true believer, that sense is faith and in an
+  unbeliever, the sense is doubt. </p>
+  </div>
+</section></main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</section>
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>

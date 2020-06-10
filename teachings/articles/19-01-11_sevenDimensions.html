@@ -1,175 +1,180 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <link rel="icon" href="/images/favicon.ico">
-<!--Import Google Icon Font-->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+  <meta charset="UTF-8" />
 
-<!--Import materialize.css-->
-<link rel="stylesheet" href="/css/ghpages-materialize.css"/>
-<!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
-<link rel="stylesheet" href="/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="description" content="Capstone Message Tabernacle Nakuru Kiti">
-<meta name="keywords" content="Capstone, message, tabernacle, kenya, kiti, Nakuru">
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8">
+  <meta name="description" content="Capstone Message Tabernacle Nakuru Kiti" />
 
-<title>The 7 Dimensions | Teachings</title>
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Import Google icons and font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title>The 7 Dimensions | Teachings</title>
 </head>
+
 <body>
-  <!-- The Header contains the sidenav which is fixed -->
-<header>
-  <div class="hide-on-large-only navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper blue accent-4">
-        <!-- <a href="#!" class="brand-logo">Logo</a> -->
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+  <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img height="100" src="/images/logo.jpg"
+            alt="logo" /></a>
+        <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/aboutus.html">About</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li>
+            <a class="disabled" href="/billboard/">Billboard</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav sidenav-fixed" id="nav-mobile">
-    <li class="logo">
-      <a
-        id="logo-container"
-        href="/"
-        class="brand-logo center"
-        ><img src="/images/logo.jpg" alt=""
-      /></a>
-    </li>
-    <li class="bold center aboutus" id="about">
-      <a href="/aboutus.html">About</a>
-    </li>
-    <li class="bold" hidden>
-      <a id="live" href="" class="disabled"
-        ><i class="material-icons">videocam</i> Live</a
-      >
-    </li>
-    <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-        <!-- TEACHINGS -->
-<li class="bold">
-  <a class="collapsible-header"><i class="material-icons">book</i>Teachings</a>
-  <div class="collapsible-body">
-    <ul id="teachingsNav">
-      <li><a href="/teachings/index.html?#featured">Featured Articles</a></li>
-      <li><a href="/teachings/index.html?#more">More</a></li>
-    </ul>
-  </div>
-</li>
- <!-- SERMONS -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">mic</i>Sermons</a>
-  <div class="collapsible-body">
-    <ul id="sermonsNav">
-      <li><a href="/sermons/2020/index.html">2020</a></li>
-      <li><a href="/sermons/2019/index.html">2019</a></li>
-      <li><a href="/sermons/series.html">Series</a></li>
-    </ul>
-  </div>
-</li>
- <!-- MUSIC -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">audiotrack</i>Music</a>
-  <div class="collapsible-body">
-    <ul id="musicNav">
-      <li><a href="/music/"><i class="material-icons">audiotrack</i>Home</a></li>
-      <li><a href="/music/audios.html"><i class="material-icons">library_music</i>Audio</a></li>
-      <li><a href="/music/videos.html"><i class="material-icons">video_library</i>Video</a></li>
-      <li><a id="audioMusic" href="/music/audio.html">Audio</a></li>
-    </ul>
-  </div>
-</li>
- <!-- GALLERY -->
-<li class="bold">
-  <a class="collapsible-header "><i class="material-icons">camera</i>Gallery</a>
-  <div class="collapsible-body">
-    <ul id="galleryNav">
-      <li><a href="/gallery/index.html">Cover</a></li>
-      <li><a id="galleryNav1" href="/gallery/albums/alpha.html">Alpha</a></li>
-      <li><a id="galleryNav2" href="/gallery/albums/time2eternity.html">From Time to Eternity</a></li>
-    </ul>
-  </div>
-</li>
-
-      </ul>
-    </li>
-
-    <!-- BILLBOARD -->
-    <li id="billboardNav" class="bold">
-      <a href="/billboard/index.html" class=""
-        ><i class="material-icons">notifications</i> Billboard</a
-      >
+  <ul class="sidenav" id="mobile-menu">
+    <li><img height="100" src="/images/logo.jpg" alt="logo" /></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutus.html">About</a></li>
+    <li><a href="/sermons/">Sermons</a></li>
+    <li><a href="/teachings/">Teachings</a></li>
+    <li><a href="/music/">Music</a></li>
+    <li>
+      <a class="disabled" href="/billboard/">Billboard</a>
     </li>
   </ul>
 </header>
 
-  <main>
-    <!-- Top Position -->
-<div id="top"></div>
+<!-- Select the active link and add the class name  -->
 
-<!-- The Breadcrumb -->
-<section class="section hide-on-med-and-down">
-  <nav class="theBreadcrumb">
-    <div class="nav-wrapper">
-      <div class="col s12">
-        <a href="/" class="breadcrumb">Home</a>
-        <a href="/teachings/index.html" class="breadcrumb">Teachings</a>
-        <a href="" class="breadcrumb disabled">The 7 Dimensions </a>
-      </div>
-    </div>
-  </nav>
+
+
+<script>
+  const activeLink = `Teachings`;
+  const links = document.querySelector("#nav-mobile").children;
+
+  // Add active class to respective node
+  Object.values(links).forEach(element => {
+    if (element.innerText === activeLink) {
+      element.classList.add("active");
+    }
+  });
+</script>
+  <main><section class="title section">
+  <h2 class="center">Teachings</h2>
 </section>
 
-<section class="section blue lighten-2">
+<section class="section">
+  <h3 class="center">The 7 Dimensions</h3>
   <div class="container">
-    <button class="btn blue lighten-3"><i class="material-icons">person</i> Bro. Richard Irungu</button>
-    <div class="teaching col s12">
-      <a href="/teachings/index.html" class="hide-on-large-only btn blue accent-4"><i class="material-icons white-text">arrow_back</i></a>
-      <h4 class="center title white-text">The 7 Dimensions</h4>
-
-      <!-- Contents -->
-      <div class="contents blue lighten-3 z-depth-2">
-        <p>The Bible teaches that there are worlds, both seen and unseen. HEBREWS 11:3 <em>Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.</em> God created the dimensions as He developed the design that was in His mind. These dimensions serve different purposes, as God deals with creation. These dimensions include things seen and those unseen. </p>
-<p>The tabernacle of Moses in the wilderness is full of scriptural mysteries. The 3 parts type many things. One of the things is the dimensions. </p>
-<h5 class="title center">The First 3 Dimensions </h5>
-<p>Man on earth lives in 3 dimensions. The 5 senses of the body are always in contact with these 3 dimensions. These dimensions are light, matter, and time. In the corporal body, here on earth, we cannot go past these 3 dimensions. </p>
-<p>Jesus died here on earth; this corresponds to outer court in the tabernacle of Moses, where animals were killed at the brazen altar. </p>
-<p>In this earthly life, man is limited in many ways. The speed at which things happen on earth cannot compare with the speed in heaven. Because of time dimension, we are limited in many ways-you cannot do an activity continuously for a long time without getting weary, for example. The unborn child is in a very limited world, a few inches of turning around. After birth, the child finds a very expansive world; with oceans, land etc. Likewise, when a Christian leaves the earth and goes to the celestial world, he/she realizes this world is very limiting. Heaven is not limited by the 3 dimensions we live in on earth. In heaven, you can travel at the speed of thought. </p>
-<p>In this life, we have measurements of months, days, hours, miles, kilometers, yards etc. When we leave the earth, all those limits cease. </p>
-<h5 class="title center">The 4th Dimension</h5>
-<p>The fourth dimension is science. Science is beyond the limitations of the 5 human senses. For example, a person cannot contact an activity that is happening hundreds of miles away through the senses. However, television can channel that activity and bring it on screen for the person. Television, radio, phones, internet are the fourth dimension. They aid man because his 5 senses are limited in many ways. </p>
-<p>That channel was always there even in the ancient days, but people had not discovered it. When our bodies will be glorified, we will not need these scientific devices. We will not be limited any more. </p>
-<h5 class="title center">The 5th Dimension </h5>
-<p>The sinner goes here after death. It is the regions of the lost. This dimension is also known as hell or the bottomless pit-2nd Peter 2:4.</p>
-<p>Hell is where the seat of Satan and the habitation of demons is, though they come out to roam around the earth. Satan is the king of the bottomless pit-Revelation 9:1.</p>
-<p>The soul of a sinner, as that of the Christian, leaves the body at death. The person cannot prolong his or her days on earth, since everyone has an allotted time to be on earth. The soul goes into the 5th dimension, the regions of the lost. This place is not the lake of fire; rather it is a prison until the general resurrection and judgment of Revelation 20:11-15. Hell itself will be cast into the lake of fire for annihilation, as we see in Revelation 20:14. </p>
-<h5 class="title center">The 6th Dimension </h5>
-<p>The 6th dimension is where the Christian goes after dying. It is just below the altar of God. Before the Blood of Jesus, saints used to go to a place called paradise. After the death and resurrection of Jesus, God did away with that paradise, and we now have the 6th dimension. Since this is below the altar, and not where the throne is, this dimension corresponds to the holy place in the tabernacle of Moses. </p>
-<p>Those in this dimension without the Holy Spirit remain as souls under the altar, without celestial bodies. Revelation 6:9-11 shows this. They are under the brazen altar. They will not be in the millennial reign with Christ but will come up at the end of it. After the great white throne judgment, they will enter the redeemed earth. </p>
-<p>Holy Spirit-filled Christians enter celestial bodies in this dimension, as we find in 2nd Corinthians 5:1-5.They are under the golden altar. They remain there until the time of resurrection and glorification of their earthly bodies. At that time, they will descend and put on the now glorified earthly bodies over the celestial bodies. In this condition, they will go in the Rapture to the 7th dimension. </p>
-<h5 class="title center">The 7th Dimension </h5>
-<p>This is where God has His throne. This dimension corresponds to the holy of holies in the tabernacle of Moses. Revelation chapter 4 gives some details of this dimension. It is from here that the Lord governs all the dimensions. </p>
+    <p>The Bible teaches that there are worlds, both seen and unseen. HEBREWS 11:3 <em>Through faith we understand that the
+    worlds were framed by the word of God, so that things which are seen were not made of things which do appear.</em>
+  God created the dimensions as He developed the design that was in His mind. These dimensions serve different purposes,
+  as God deals with creation. These dimensions include things seen and those unseen. </p>
+<p>The tabernacle of Moses in the wilderness is full of scriptural mysteries. The 3 parts type many things. One of the
+  things is the dimensions. </p>
+<h5 class="center">The First 3 Dimensions </h5>
+<p>Man on earth lives in 3 dimensions. The 5 senses of the body are always in contact with these 3 dimensions. These
+  dimensions are light, matter, and time. In the corporal body, here on earth, we cannot go past these 3 dimensions.
+</p>
+<p>Jesus died here on earth; this corresponds to outer court in the tabernacle of Moses, where animals were killed at
+  the brazen altar. </p>
+<p>In this earthly life, man is limited in many ways. The speed at which things happen on earth cannot compare with the
+  speed in heaven. Because of time dimension, we are limited in many ways-you cannot do an activity continuously for a
+  long time without getting weary, for example. The unborn child is in a very limited world, a few inches of turning
+  around. After birth, the child finds a very expansive world; with oceans, land etc. Likewise, when a Christian leaves
+  the earth and goes to the celestial world, he/she realizes this world is very limiting. Heaven is not limited by the 3
+  dimensions we live in on earth. In heaven, you can travel at the speed of thought. </p>
+<p>In this life, we have measurements of months, days, hours, miles, kilometers, yards etc. When we leave the earth, all
+  those limits cease. </p>
+<h5 class="center">The 4th Dimension</h5>
+<p>The fourth dimension is science. Science is beyond the limitations of the 5 human senses. For example, a person
+  cannot contact an activity that is happening hundreds of miles away through the senses. However, television can
+  channel that activity and bring it on screen for the person. Television, radio, phones, internet are the fourth
+  dimension. They aid man because his 5 senses are limited in many ways. </p>
+<p>That channel was always there even in the ancient days, but people had not discovered it. When our bodies will be
+  glorified, we will not need these scientific devices. We will not be limited any more. </p>
+<h5 class="center">The 5th Dimension </h5>
+<p>The sinner goes here after death. It is the regions of the lost. This dimension is also known as hell or the
+  bottomless pit-2nd Peter 2:4.</p>
+<p>Hell is where the seat of Satan and the habitation of demons is, though they come out to roam around the earth. Satan
+  is the king of the bottomless pit-Revelation 9:1.</p>
+<p>The soul of a sinner, as that of the Christian, leaves the body at death. The person cannot prolong his or her days
+  on earth, since everyone has an allotted time to be on earth. The soul goes into the 5th dimension, the regions of the
+  lost. This place is not the lake of fire; rather it is a prison until the general resurrection and judgment of
+  Revelation 20:11-15. Hell itself will be cast into the lake of fire for annihilation, as we see in Revelation 20:14.
+</p>
+<h5 class="center">The 6th Dimension </h5>
+<p>The 6th dimension is where the Christian goes after dying. It is just below the altar of God. Before the Blood of
+  Jesus, saints used to go to a place called paradise. After the death and resurrection of Jesus, God did away with that
+  paradise, and we now have the 6th dimension. Since this is below the altar, and not where the throne is, this
+  dimension corresponds to the holy place in the tabernacle of Moses. </p>
+<p>Those in this dimension without the Holy Spirit remain as souls under the altar, without celestial bodies. Revelation
+  6:9-11 shows this. They are under the brazen altar. They will not be in the millennial reign with Christ but will come
+  up at the end of it. After the great white throne judgment, they will enter the redeemed earth. </p>
+<p>Holy Spirit-filled Christians enter celestial bodies in this dimension, as we find in 2nd Corinthians 5:1-5.They are
+  under the golden altar. They remain there until the time of resurrection and glorification of their earthly bodies. At
+  that time, they will descend and put on the now glorified earthly bodies over the celestial bodies. In this condition,
+  they will go in the Rapture to the 7th dimension. </p>
+<h5 class="center">The 7th Dimension </h5>
+<p>This is where God has His throne. This dimension corresponds to the holy of holies in the tabernacle of Moses.
+  Revelation chapter 4 gives some details of this dimension. It is from here that the Lord governs all the dimensions.
+</p>
 <p>The Bride will go to the 7th dimension after the Rapture. The marriage supper of the Lamb will take place here. </p>
-
-        <a href="#top" class="btn blue accent-4"><i class="material-icons white-text">arrow_upward</i></a>
-        <div class="clearfix"></div>
+  </div>
+</section></main>
+  <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5>Contact us on:</h5>
+        <ul class="collection">
+          <li class="collection-item">Capstone Message Tabernacle</li>
+          <li class="collection-item">P.O. BOX 10073-20100 NAKURU</li>
+          <li class="collection-item">Call us on: +254721230203 or +254714479997</li>
+          <li class="collection-item">Email: info@capstonemessage.org</li>
+        </ul>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sermons/">Sermons</a></li>
+          <li><a href="/teachings/">Teachings</a></li>
+          <li><a href="/music/">Music</a></li>
+          <li><a href="/billboard/">Billboard</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCNMWw2o7Ahu1x-A_PphKmzg"
+              rel="noopener noreferrer"><i style="font-size: 40px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-</section>
-
-  </main>
-  <footer>
-    <p class="center">&copy; Capstone Message Tabernacle</p>
-  </footer>
-
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/custom.js"></script>
+  <div class="footer-copyright">
+    <div class="container" style="text-align: center;">
+      © Capstone Message Tabernacle
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>
