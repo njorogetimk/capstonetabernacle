@@ -21,7 +21,7 @@ iframe { max-width: 100%; }
 /* Navbar */
 nav { background-color: white; font-size: 1rem; color: black; border-bottom: 3px solid black; }
 
-nav img:first-child { border-radius: 50%; height: 20vh; }
+nav img:first-child { border-radius: 50%; height: 112px; }
 
 nav ul a, nav .material-icons { color: black; }
 
