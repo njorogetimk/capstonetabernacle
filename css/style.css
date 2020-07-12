@@ -40,6 +40,14 @@ nav a:hover { border-top: 3px solid skyblue; }
 
 .section .container hr { color: transparent; }
 
+.services { background-color: #df292d; color: white; }
+
+.services .container { background-color: #df292d; border: solid white 1px; }
+
+.services .container h3.title { background-color: #df292d; }
+
+.services .container h3.title img { vertical-align: bottom; }
+
 .title { background-color: skyblue; }
 
 .content { background-color: skyblue; }
