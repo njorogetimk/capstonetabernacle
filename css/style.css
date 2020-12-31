@@ -21,7 +21,9 @@ iframe { max-width: 100%; }
 /* Navbar */
 nav { background-color: white; font-size: 1rem; color: black; border-bottom: 3px solid black; }
 
-nav img:first-child { border-radius: 50%; height: 112px; }
+nav img:first-child { /* Logo */ height: 150px; background-color: rgba(255, 255, 255, 0.2); border-radius: 50%; }
+
+@media only screen and (max-width: 600px) { nav img:first-child { height: 112px; } }
 
 nav ul a, nav .material-icons { color: black; }
 
@@ -56,6 +58,8 @@ nav a:hover { border-top: 3px solid skyblue; }
 @media only screen and (max-width: 600px) { .sermon { margin-bottom: 1.4rem; line-height: 1; } }
 
 .sort { padding: 2rem 0 1rem 0; background-color: #ededed; }
+
+@media only screen and (max-width: 600px) { .sort .m3 { margin-top: 0.5rem; } }
 
 /* Footer */
 .page-footer { background-color: #1c1c1c; padding-top: 20px; }
