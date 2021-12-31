@@ -10,7 +10,7 @@ p { font-size: 1.2rem; }
 
 p i { vertical-align: text-bottom; }
 
-.btn { text-transform: capitalize; background: transparent; border-radius: 5px; color: inherit; border: 1px solid black; }
+.btn { text-transform: capitalize; background: transparent; border-radius: 5px; color: inherit; border: 1px solid black; margin-bottom: 5px; }
 
 .skyblue { background-color: skyblue; }
 
