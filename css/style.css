@@ -1,77 +1,165 @@
-body { background-color: white; font-size: 16px; }
+body {
+  background-color: white;
+  font-size: 16px;
+}
 
 /* Globals CSS */
 /* dark link helper class */
-.dark-link { color: #0067b8; }
+.dark-link {
+  color: #0067b8;
+}
 
-i { vertical-align: bottom; }
+i {
+  vertical-align: bottom;
+}
 
-p { font-size: 1.2rem; }
+p {
+  font-size: 1.2rem;
+}
+p i {
+  vertical-align: text-bottom;
+}
 
-p i { vertical-align: text-bottom; }
+.btn {
+  text-transform: capitalize;
+  background: transparent;
+  border-radius: 5px;
+  color: inherit;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
 
-.btn { text-transform: capitalize; background: transparent; border-radius: 5px; color: inherit; border: 1px solid black; margin-bottom: 5px; }
+.skyblue {
+  background-color: skyblue;
+}
 
-.skyblue { background-color: skyblue; }
+.hidden {
+  display: none !important;
+}
 
-.hidden { display: none !important; }
-
-iframe { max-width: 100%; }
+iframe {
+  max-width: 100%;
+}
 
 /* Navbar */
-nav { background-color: white; font-size: 1rem; color: black; border-bottom: 3px solid black; }
+nav {
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  border-bottom: 3px solid black;
+}
+nav img:first-child {
+  /* Logo */
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+  nav img:first-child {
+    height: 112px;
+  }
+}
+nav ul a,
+nav .material-icons {
+  color: black;
+}
+nav a:hover {
+  border-top: 3px solid skyblue;
+}
 
-nav img:first-child { /* Logo */ height: 150px; background-color: rgba(255, 255, 255, 0.2); border-radius: 50%; }
-
-@media only screen and (max-width: 600px) { nav img:first-child { height: 112px; } }
-
-nav ul a, nav .material-icons { color: black; }
-
-nav a:hover { border-top: 3px solid skyblue; }
-
-.sidenav { text-align: center; background: rgba(255, 255, 255, 0.9); }
-
-.sidenav img { border-radius: 50%; }
-
-.sidenav li a { font-size: 1.7rem; }
+.sidenav {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+.sidenav img {
+  border-radius: 50%;
+}
+.sidenav li a {
+  font-size: 1.7rem;
+}
 
 /* Sections */
-.section { padding-top: 1rem; display: inherit; padding-bottom: 5px; }
+.section {
+  padding-top: 1rem;
+  display: inherit;
+  padding-bottom: 5px;
+}
+.section .container {
+  background-color: white;
+  border-radius: 7px;
+}
+.section .container hr {
+  color: transparent;
+}
 
-.section .container { background-color: white; border-radius: 7px; }
+.services {
+  background-color: #df292d;
+  color: white;
+}
+.services .container {
+  background-color: #df292d;
+  border: solid white 1px;
+}
+.services .container h3.title {
+  background-color: #df292d;
+}
+.services .container h3.title img {
+  vertical-align: bottom;
+}
 
-.section .container hr { color: transparent; }
+.title {
+  background-color: skyblue;
+}
 
-.services { background-color: #df292d; color: white; }
-
-.services .container { background-color: #df292d; border: solid white 1px; }
-
-.services .container h3.title { background-color: #df292d; }
-
-.services .container h3.title img { vertical-align: bottom; }
-
-.title { background-color: skyblue; }
-
-.content { background-color: skyblue; }
+.content {
+  background-color: skyblue;
+}
 
 /* Sermons */
-@media only screen and (max-width: 600px) { .sermon { margin-bottom: 1.4rem; line-height: 1; } }
+@media only screen and (max-width: 600px) {
+  .sermon {
+    margin-bottom: 1.4rem;
+    line-height: 1;
+  }
+}
 
-.sort { padding: 2rem 0 1rem 0; background-color: #ededed; }
-
-@media only screen and (max-width: 600px) { .sort .m3 { margin-top: 0.5rem; } }
+.sort {
+  padding: 2rem 0 1rem 0;
+  background-color: #ededed;
+}
+@media only screen and (max-width: 600px) {
+  .sort .m3 {
+    margin-top: 0.5rem;
+  }
+}
 
 /* Footer */
-.page-footer { background-color: #1c1c1c; padding-top: 20px; }
+.page-footer {
+  background-color: rgb(28, 28, 28);
+  padding-top: 20px;
+}
+.page-footer .collection li {
+  background-color: inherit;
+}
+.page-footer a {
+  font-size: 1.1em;
+}
 
-.page-footer .collection li { background-color: inherit; }
-
-.page-footer a { font-size: 1.1em; }
-
-.welcome { background: rgba(0, 0, 0, 0) url("/images/backg.jpg") no-repeat scroll center bottom/cover; text-align: center; padding: 2em 0; }
-
-.welcome div { background: rgba(15, 26, 25, 0.5) none repeat scroll 0% 0% !important; padding: 1rem; border-radius: 4rem !important; color: white; }
-
-.welcome div .btn { background-color: skyblue; color: black; border-color: transparent; }
+.welcome {
+  background: rgba(0, 0, 0, 0) url("/images/backg.jpg") no-repeat scroll center bottom/cover;
+  text-align: center;
+  padding: 2em 0;
+}
+.welcome div {
+  background: rgba(15, 26, 25, 0.5) none repeat scroll 0% 0% !important;
+  padding: 1rem;
+  border-radius: 4rem !important;
+  color: white;
+}
+.welcome div .btn {
+  background-color: skyblue;
+  color: black;
+  border-color: transparent;
+}
 
 /*# sourceMappingURL=style.css.map */
